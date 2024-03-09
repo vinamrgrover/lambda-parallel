@@ -76,7 +76,7 @@ Use the AWS Console to create the Lambda Function with the recently-pushed image
 
 ### 4. Trigger the Lambda Function (in-parallel)
 
-Use the shell script `parallel-lambda-invoke.sh` to trigger multiple instances of our Lambda Function in parallel.
+Use the shell script `parallel-lambda-invoke.sh` to trigger multiple instances of our Lambda Function in parallel. Make sure to replace `batch-func` with your Lambda Function's name.
 
 ```
 ./parallel-lambda-invoke.sh
